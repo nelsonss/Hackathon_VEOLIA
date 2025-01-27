@@ -3,88 +3,95 @@
 <img src="https://lh3.googleusercontent.com/pw/AP1GczPYmHnm995NEoitcY-pzNN5oGf5_A0Ff3w80CKhyN973-_23Rl7zbtqST3U3Xs-einmCyyTPRJYT7hQoZl-YVy7_i22RaXZ60rCaKiZe2CL_h2WTrQqxvgilXBbQlwqUEdwmctdd7XASGzijKLtbUsW7w=w864-h866-s-no-gm?authuser=0" alt="isolated"/>
 
 
-**Conectando Datos, Transformando el Futuro**
+# Veolia EcoSentry 
+**Connecting Data, Transforming the Future**
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Problem](#problem)
+3. [Solution: Veolia EcoSentry](#solution-veolia-ecosentry)
+4. [Key Features](#key-features)
+5. [Benefits](#benefits)
+6. [Technological Architecture](#technological-architecture)
+7. [Installation Guide](#installation-guide)
+8. [Usage](#usage)
+9. [Contributing](#contributing)
+10. [Team](#team)
+11. [License](#license)
+12. [Contact](#contact)
+13. [Annexes](#annexes)
 
 ---
 
-## Índice
-
-- [Introducción](#introducción)
-- [Problema](#problema)
-- [Solución: Veolia EcoSentry](#Solución-Veolia-EcoSentry)
-- [Características Principales](#características-principales)
-- [Beneficios](#beneficios)
-- [Arquitectura Tecnológica](#arquitectura-tecnológica)
-- [Guía de Instalación](#guía-de-instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Equipo](#equipo)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+## Introduction
+**Veolia EcoSentry** is a comprehensive platform designed to revolutionize the management of sensors and data for Veolia. Our goal is to centralize and simplify the interaction with thousands of sensors operating under various protocols and brands, improving operational efficiency and driving ecological transformation.
 
 ---
 
-## Introducción
+## Problem
+Veolia faces significant challenges in data management due to:
 
-**Veolia EcoSentry** es una plataforma integral diseñada para revolucionar la gestión de sensores y datos en Veolia. Nuestro objetivo es centralizar y simplificar la interacción con miles de sensores que operan con diversos protocolos y marcas, mejorando la eficiencia operativa y apoyando la transformación ecológica.
-
----
-
-## Problema
-
-Veolia enfrenta desafíos significativos en la gestión de datos debido a:
-
-- **Fragmentación Tecnológica**: Múltiples sensores con protocolos incompatibles dificultan la integración y gestión eficiente.
-- **Ineficiencias Operativas**: Retrasos en la recopilación y análisis de datos impactan negativamente en la toma de decisiones.
-- **Dependencia de Proveedores Externos**: La necesidad constante de soporte externo aumenta los costos y reduce el control interno.
-- **Riesgos de Seguridad**: Datos sensibles están expuestos debido a sistemas dispersos y falta de estandarización.
+- **Technological Fragmentation**: Multiple sensors with incompatible protocols hinder efficient integration and management.  
+- **Operational Inefficiencies**: Delays in data collection and analysis negatively impact decision-making.  
+- **Dependency on External Providers**: Continuous reliance on external support raises costs and reduces internal control.  
+- **Security Risks**: Sensitive data is exposed due to dispersed systems and lack of standardization.
 
 ---
 
-## Solución Veolia EcoSentry
+## Solution: Veolia EcoSentry
+**Veolia EcoSentry** addresses these challenges by providing:
 
-Veolia EcoSentry aborda estos desafíos mediante:
-
-- **Centralización de Datos**: Una plataforma única para gestionar todos los sensores y datos.
-- **Integración Multiprotocolo**: Soporte para MQTT, HTTPS, MODBUS, PROFIBUS, entre otros.
-- **Interfaz Intuitiva**: Diseño centrado en el usuario para facilitar la adopción y uso eficiente.
-- **Seguridad Avanzada**: Protección robusta de datos sensibles.
-- **Escalabilidad y Flexibilidad**: Adaptable a futuras tecnologías y necesidades.
-
----
-
-## Características Principales
-
-- **Gestión Centralizada de Sensores**: Control total sobre todos los dispositivos desde una sola plataforma.
-- **Alertas y Notificaciones en Tiempo Real**: Monitoreo proactivo de eventos críticos.
-- **Roles y Permisos Personalizados**: Control de acceso basado en funciones.
-- **Dashboard Personalizable**: Visualizaciones y reportes adaptados a las necesidades del usuario.
-- **Feedback Integrado**: Canal directo para sugerencias y reportes de los usuarios.
+- **Data Centralization**: A single platform to manage all sensors and data.  
+- **Multi-Protocol Integration**: Support for MQTT, HTTPS, MODBUS, PROFIBUS, among others.  
+- **Intuitive Interface**: User-centered design for easy adoption and efficient usage.  
+- **Advanced Security**: Robust protection for sensitive data.  
+- **Scalability and Flexibility**: Adaptable to future technologies and requirements.
 
 ---
 
-## Beneficios
+## Key Features
+- **Centralized Sensor Management**: Complete control of all devices from one platform.  
+- **Real-Time Alerts and Notifications**: Proactive monitoring of critical events.  
+- **Custom Roles and Permissions**: Role-based access control.  
+- **Customizable Dashboard**: Personalized views and reports tailored to user needs.  
+- **Built-In Feedback**: Direct channel for user suggestions and reports.
 
-- **Mejora de la Eficiencia Operativa**: Reducción significativa de tiempos y costos.
-- **Decisiones Informadas**: Acceso a datos confiables en tiempo real.
-- **Seguridad Reforzada**: Protección de datos críticos y cumplimiento normativo.
-- **Innovación Continua**: Plataforma preparada para integrar nuevas tecnologías y funcionalidades.
-- **Sostenibilidad Ambiental**: Optimización en la gestión de recursos naturales.
+---
+
+## Benefits
+- **Improved Operational Efficiency**: Significant reduction in time and cost.  
+- **Informed Decision-Making**: Access to reliable real-time data.  
+- **Enhanced Security**: Protection of critical data and regulatory compliance.  
+- **Continuous Innovation**: A platform ready to integrate new technologies and features.  
+- **Environmental Sustainability**: Optimized management of natural resources.
 
 ---
 
-## Arquitectura Tecnológica
-
-- **Frontend**: Angular: Framework frontend para el desarrollo de la interfaz
-- **Backend**: Node.js con Express
-- **Base de Datos**: PosgreSQL
-- **Protocolos Soportados**: MQTT, HTTPS, MODBUS, PROFIBUS
-- **Infraestructura**: Google Cloud Platform (GCP), Render
-- **Seguridad**:
-  - Autenticación JWT
-  - Cifrado SSL/TLS
+## Technological Architecture
+- **Frontend**: [Angular](https://angular.io/)  
+- **Backend**: [Node.js](https://nodejs.org/) with [Express](https://expressjs.com/)  
+- **Database**: PostgreSQL  
+- **Supported Protocols**: MQTT, HTTPS, MODBUS, PROFIBUS  
+- **Infrastructure**: Google Cloud Platform (GCP) and Render  
+- **Security**:  
+  - JWT Authentication  
+  - SSL/TLS Encryption  
 
 ---
+
+## Installation Guide
+
+### Prerequisites
+- **Node.js** v14 or higher  
+- **PostgreSQL** v16 or higher  
+- **Git** installed on your system
+
+### Installation Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/veolia/veolia-ecoSentry.git
+
 
 ## Guía de Instalación
 
