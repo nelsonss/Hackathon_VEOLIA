@@ -181,14 +181,6 @@ Veolia faces significant challenges in data management due to:
 
 ¡Las contribuciones son bienvenidas! Para contribuir:
 
-1. **Fork** del repositorio.
-2. Crea una nueva **rama** con la función o corrección (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza **commits** de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`).
-4. **Empuja** la rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un **Pull Request**.
-
-Por favor, asegúrate de seguir las [pautas de contribución](CONTRIBUTING.md).
-
 ---
 
 ## Equipo
